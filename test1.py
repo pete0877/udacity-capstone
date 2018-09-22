@@ -44,13 +44,13 @@ with open('{base_dir_path}/data-labels/images.csv'.format(base_dir_path=base_dir
     reader = csv.DictReader(csvfile)
     for row in reader:
         image_name = row['IMAGE FILENAME'].strip()
-        is_huddle = 1 if row['IS HUDDLE'] else 0
+        is_positive = 1 if row['IS POSITIVE'] else 0
         if image_name:
             image_path = '{base_dir_path}/data-images/{image_name}'.format(base_dir_path=base_dir_path,
                                                                            image_name=image_name)
-            image_to_label[image_path] = is_huddle
+            image_to_label[image_path] = is_positive
             images_list.append(image_path)
-            label_list.append(is_huddle)
+            label_list.append(is_positive)
 
 label_list_categorical = to_categorical(label_list)
 
