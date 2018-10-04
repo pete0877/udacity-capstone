@@ -4,6 +4,8 @@ Keras==2.2.2
 pandas==0.23.4
 matplotlib==2.2.3
 Pillow==5.2.0
-av==0.4.1
 tensorflow==1.10.1
 tqdm==4.26.0
+
+# Uncomment the line below if you intend to run some of the video-frame extraction scripts:
+# av==0.4.1
