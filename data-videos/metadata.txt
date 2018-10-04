@@ -1,15 +1,20 @@
 The images in the data-images folder have been created from following video files and games:
 
-5833084561001.mp4 | 2007 | Boston College Eagles (BC) @ Michigan State Spartans (MSU) | DEFENSE
-5831137888001.mp4 | 2007 | Boston College Eagles (BC) @ Virginia Tech Hokies (VT) | OFFENSE | ACC CHAMPIONSHIP GAME
-5833096735001.mp4 | 2007 | Miami Hurricanes @ Boston College Eagles (BC) | DEFENSE
-5833090951001.mp4 | 2007 | Boston College Eagles (BC) @ Clemson Tigers | DEFENSE
 5831135399001.mp4 | 2007 | Boston College Eagles (BC) @ Maryland Terrapins (UMD) | OFFENSE
-5831139883001.mp4 | 2007 | UMass Minutemen (UMASS) @ Boston College Eagles (BC) | OFFENSE
+5831135989001.mp4 | 2007 | Army Black Knights (Army) @ Boston College Eagles (BC) | OFFENSE
+5831137888001.mp4 | 2007 | Boston College Eagles (BC) @ Virginia Tech Hokies (VT) | OFFENSE | ACC CHAMPIONSHIP GAME
+5831138798001.mp4 | 2007 | Bowling Green Falcons @ Boston College Eagles (BC) | OFFENSE
 5831138807001.mp4 | 2007 | Florida State Seminoles (FSU) @ Boston College Eagles (BC) | OFFENSE
+5831139883001.mp4 | 2007 | UMass Minutemen (UMASS) @ Boston College Eagles (BC) | OFFENSE
+5831139886001.mp4 | 2007 | NC State Wolfpack (NCST) @ Boston College Eagles (BC) | OFFENSE
+5833078851001.mp4 | 2007 | Wake Forest Demon Deacons @ Boston College Eagles (BC) | DEFENSE
+5833084561001.mp4 | 2007 | Boston College Eagles (BC) @ Michigan State Spartans (MSU) | DEFENSE
+5833090951001.mp4 | 2007 | Boston College Eagles (BC) @ Clemson Tigers | DEFENSE
+5833096735001.mp4 | 2007 | Miami Hurricanes @ Boston College Eagles (BC) | DEFENSE
 
 These files (somewhat large and not suitable for GitHub) can be downloaded from following location:
 
 https://www.dropbox.com/sh/9t48voatzxy85oq/AAB5jZuJThaf5q2XYt6l1eNaa?dl=0
 
 They should be saved into the same folder as this file (metadata.txt) using the above filenames.
+

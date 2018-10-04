@@ -13,13 +13,17 @@ video_ids = sorted([5833084561001,
                     5831135399001,
                     5831139883001,
                     5831138807001,
+                    5831138798001,
+                    5831135989001,
+                    5831139886001,
+                    5833078851001,
                     ])
 
 images_per_video = 200
-image_height_and_width = 224  # Most transfer networks we woudl want to use have this as input size
+image_height_and_width = 270
 
-with open("{}/data-labels/images.csv".format(base_dir_path), "w") as metadata_file:
-    metadata_file.write("\"VIDEO ID\",\"IMAGE ID\",\"IMAGE FILENAME\",\"IS HUDDLE\"\n")
+with open("{}/data-labels/images2.csv".format(base_dir_path), "w") as metadata_file:
+    metadata_file.write("\"VIDEO ID\",\"IMAGE ID\",\"IMAGE FILENAME\",\"IS POSITIVE\"\n")
 
     for video_id in video_ids:
         video = av.open("{}/data-videos/{}.mp4".format(base_dir_path, video_id))
