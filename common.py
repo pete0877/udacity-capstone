@@ -94,7 +94,7 @@ def train_single_model(model,
     model.fit(train_tensors, y_train,
               validation_data=(valid_tensors, y_validate),
               epochs=training_epochs,
-              batch_size=20,
+              batch_size=batch_size,
               callbacks=[checkpointer],
               verbose=1)
 
@@ -117,7 +117,6 @@ def summarize_model_performance(X_data, y_data, predictions):
     for n, data_image in enumerate(X_data):
         prediction_label = True if predictions[n] else False
         truth_label = True if y_data[n][1] else False
-        correct_prediction = prediction_label == truth_label
 
         if truth_label:
             all_positives += 1
