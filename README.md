@@ -35,4 +35,6 @@ The `report.pdf` for the final project report.
    https://www.dropbox.com/sh/9t48voatzxy85oq/AAB5jZuJThaf5q2XYt6l1eNaa?dl=0
    
    Then run `python extract_frames.py`.
-1. To run the project itself, open the `project.ipynb` in a Notebook.  
+1. To run the project itself, open the `transfer_learning.ipynb` in a Notebook.  
+
+Final project report has been included in report.docx and report.pdf.
